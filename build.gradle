@@ -16,11 +16,12 @@ allure {
 }
 
 dependencies {
-    compile 'com.codeborne:selenide:5.11.1'
+    compile "com.codeborne:selenide:5.11.1"
+    compile "io.qameta.allure:allure-selenide:2.13.7"
 
-    compile("org.junit.jupiter:junit-jupiter-api:5.7.0")
-    compile("org.junit.jupiter:junit-jupiter-engine:5.7.0")
-    compile("org.junit.jupiter:junit-jupiter-params:5.7.0")
+    compile"org.junit.jupiter:junit-jupiter-api:5.7.0"
+    compile"org.junit.jupiter:junit-jupiter-engine:5.7.0"
+    compile"org.junit.jupiter:junit-jupiter-params:5.7.0"
 }
 
 tasks.withType(JavaCompile) {
