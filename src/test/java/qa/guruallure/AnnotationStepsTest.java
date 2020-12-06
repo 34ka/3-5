@@ -14,7 +14,7 @@ public class AnnotationStepsTest {
 
     private final static String REPOSITORY = "znyaks/123";
     private final static String USER = "znyaks";
-    private final static String PASSWORD = "git rm -rf --cached";
+    private final static String PASSWORD = "";
     private final static String ISSUE_NUMBER = "1";
 
     @Test
